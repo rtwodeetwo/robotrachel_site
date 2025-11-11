@@ -1,0 +1,316 @@
+/* Robot Rachel - Color Palette */
+:root {
+  --color-pink: #EA4A8A;
+  --color-lavender: #9FA8DA;
+  --color-light-blue: #80A1D4;
+  --color-black: #1a1a1a;
+  --color-white: #ffffff;
+  --color-gray: #f5f5f5;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  font-family: system-ui, -apple-system, sans-serif;
+  color: var(--color-black);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(135deg, var(--color-lavender) 0%, var(--color-light-blue) 100%);
+  color: var(--color-white);
+  padding: 8rem 2rem;
+  text-align: center;
+}
+
+.hero .logo {
+  max-width: 300px;
+  height: auto;
+  margin-bottom: 2rem;
+  filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.1));
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+}
+
+.hero .tagline {
+  font-size: 1.5rem;
+  margin-bottom: 2.5rem;
+  opacity: 0.95;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: var(--color-pink);
+  color: var(--color-white);
+  padding: 1.2rem 3rem;
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(234, 74, 138, 0.3);
+}
+
+.cta-button:hover {
+  background-color: #d43d76;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(234, 74, 138, 0.4);
+}
+
+/* Services Section */
+.services {
+  padding: 6rem 2rem;
+  background-color: var(--color-white);
+}
+
+.services h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 4rem;
+  color: var(--color-black);
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2.5rem;
+}
+
+.service-card {
+  padding: 2.5rem;
+  background: var(--color-gray);
+  border-radius: 16px;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  border-color: var(--color-lavender);
+  box-shadow: 0 10px 30px rgba(159, 168, 218, 0.2);
+}
+
+.service-icon {
+  font-size: 3.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.service-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: var(--color-black);
+}
+
+.service-card p {
+  color: #666;
+  line-height: 1.6;
+}
+
+/* Apps Section */
+.apps {
+  padding: 6rem 2rem;
+  background: linear-gradient(135deg, #f8f9fa 0%, var(--color-gray) 100%);
+}
+
+.apps h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 4rem;
+  color: var(--color-black);
+}
+
+.apps-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2.5rem;
+}
+
+.app-card {
+  padding: 3rem;
+  background: var(--color-white);
+  border-radius: 16px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  color: var(--color-black);
+  border: 2px solid transparent;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-card:hover {
+  transform: translateY(-5px);
+  border-color: var(--color-pink);
+  box-shadow: 0 10px 30px rgba(234, 74, 138, 0.2);
+}
+
+.app-card h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: var(--color-pink);
+}
+
+.app-card p {
+  flex-grow: 1;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.app-link {
+  color: var(--color-pink);
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.app-card.coming-soon {
+  opacity: 0.7;
+}
+
+.app-status {
+  color: var(--color-lavender);
+  font-weight: 600;
+  font-size: 1.1rem;
+  font-style: italic;
+}
+
+/* About Section */
+.about {
+  padding: 6rem 2rem;
+  background-color: var(--color-white);
+}
+
+.about h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 3rem;
+  color: var(--color-black);
+}
+
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-content p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+  color: #444;
+}
+
+.about-content ul {
+  list-style: none;
+  margin-top: 2rem;
+}
+
+.about-content li {
+  font-size: 1.2rem;
+  line-height: 2;
+  color: #444;
+  padding-left: 2rem;
+  position: relative;
+}
+
+.about-content li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: var(--color-pink);
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+/* Contact Section */
+.contact {
+  padding: 6rem 2rem;
+  background: linear-gradient(135deg, var(--color-pink) 0%, var(--color-lavender) 100%);
+  color: var(--color-white);
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.contact-text {
+  font-size: 1.3rem;
+  margin-bottom: 2.5rem;
+  opacity: 0.95;
+}
+
+.contact-button {
+  display: inline-block;
+  background-color: var(--color-white);
+  color: var(--color-pink);
+  padding: 1.2rem 3rem;
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.contact-button:hover {
+  background-color: #f9f9f9;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.location {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+/* Footer */
+footer {
+  background-color: var(--color-black);
+  color: var(--color-white);
+  padding: 2rem;
+  text-align: center;
+}
+
+footer p {
+  opacity: 0.8;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero .tagline {
+    font-size: 1.2rem;
+  }
+
+  .services-grid,
+  .apps-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .about-content p,
+  .about-content li {
+    font-size: 1.1rem;
+  }
+}
