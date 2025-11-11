@@ -21,60 +21,20 @@ function App() {
       <section className="services">
         <div className="container">
           <h2>What I Do</h2>
-          <div className="services-grid">
-            <div className="service-card">
-              <div className="service-icon">🤖</div>
-              <h3>AI Integration</h3>
-              <p>
-                Harness the power of artificial intelligence to automate tasks, analyze data, and make smarter business decisions.
-              </p>
-            </div>
-            <div className="service-card">
-              <div className="service-icon">⚙️</div>
-              <h3>Process Automation</h3>
-              <p>
-                Streamline your workflows with custom automation tools that save time and reduce human error.
-              </p>
-            </div>
-            <div className="service-card">
-              <div className="service-icon">💻</div>
-              <h3>Custom Applications</h3>
-              <p>
-                Build tailored software solutions designed specifically for your unique business needs and challenges.
-              </p>
-            </div>
-            <div className="service-card">
-              <div className="service-icon">📊</div>
-              <h3>Data Solutions</h3>
-              <p>
-                Transform your data into actionable insights with custom analytics and reporting tools.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Apps Section */}
-      <section className="apps">
-        <div className="container">
-          <h2>Our Products</h2>
-          <div className="apps-grid">
-            <a href="https://tales.robotrachel.com" className="app-card" target="_blank" rel="noopener noreferrer">
-              <h3>Tales</h3>
-              <p>Discover what AIs say about your brand with comprehensive AI sentiment analysis and monitoring.</p>
-              <span className="app-link">Visit Tales →</span>
-            </a>
-            <div className="app-card coming-soon">
-              <h3>Heads</h3>
-              <p>Advanced headshot and portrait analysis tool.</p>
-              <span className="app-status">Coming Soon</span>
-            </div>
-            <div className="app-card coming-soon">
-              <h3>Vision</h3>
-              <p>AI-powered image recognition and analysis platform.</p>
-              <span className="app-status">Coming Soon</span>
-            </div>
-          </div>
+          <ul className="services-list">
+            <li>
+              <strong>AI Integration:</strong> Harness the power of artificial intelligence to automate tasks, analyze data, and make smarter business decisions.
+            </li>
+            <li>
+              <strong>Process Automation:</strong> Streamline your workflows with custom automation tools that save time and reduce human error.
+            </li>
+            <li>
+              <strong>Custom Applications:</strong> Build tailored software solutions designed specifically for your unique business needs and challenges.
+            </li>
+            <li>
+              <strong>Data Solutions:</strong> Transform your data into actionable insights with custom analytics and reporting tools.
+            </li>
+          </ul>
         </div>
       </section>
 
@@ -109,7 +69,6 @@ function App() {
           <a href="mailto:rachel@robotrachel.com" className="contact-button">
             rachel@robotrachel.com
           </a>
-          <p className="location">📍 New Jersey</p>
         </div>
       </section>
 
