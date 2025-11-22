@@ -7,9 +7,9 @@ function App() {
       <header className="hero">
         <div className="container">
           <img src="/logo.png" alt="Robot Rachel" className="logo" />
-          <h1>Custom Code That Works As Hard As You Do</h1>
+          <h1>Got a workflow that's driving you nuts?</h1>
           <p className="tagline">
-            Bespoke software solutions combining AI and traditional code to make your business processes more efficient.
+            I combine the newest AI capabilities with imaginative thinking to build tools that transform how you work.
           </p>
           <a href="mailto:rachel@robotrachel.com" className="cta-button">
             Get In Touch
