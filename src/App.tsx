@@ -9,7 +9,7 @@ function App() {
           <img src="/logo.png" alt="Robot Rachel" className="logo" />
           <h1>Got a workflow that's driving you nuts?</h1>
           <p className="tagline">
-            I combine the newest AI capabilities with imaginative thinking to build tools that transform how you work.
+            We combine the newest AI capabilities with imaginative thinking to build tools that transform how you work.
           </p>
           <a href="mailto:rachel@robotrachel.com" className="cta-button">
             Get In Touch
