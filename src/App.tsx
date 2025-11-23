@@ -3,6 +3,13 @@ import './App.css'
 function App() {
   return (
     <div className="App">
+      {/* Navigation */}
+      <nav className="nav">
+        <a href="https://tales.robotrachel.com" className="tales-login">
+          Login to Tales →
+        </a>
+      </nav>
+
       {/* Hero Section */}
       <header className="hero">
         <div className="container">
