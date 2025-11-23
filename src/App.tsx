@@ -6,7 +6,7 @@ function App() {
       {/* Navigation */}
       <nav className="nav">
         <a href="https://tales.robotrachel.com" className="tales-login">
-          Login to Tales →
+          Login to RobotRachel Apps →
         </a>
       </nav>
 
